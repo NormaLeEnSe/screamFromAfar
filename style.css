@@ -1,0 +1,45 @@
+.body {
+  background-color: black;
+  padding: 0;
+}
+
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 900; /* Ajustado a un valor válido */
+  font-style: normal;
+  text-align: center;
+  padding-top: 20px;
+  animation: flicker 4s infinite;
+  color: azure;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 5px rgba(255, 139, 139, 0.5); /* Efecto de luz roja */
+  }
+  50% {
+    opacity: 0.5;
+    text-shadow: 0 0 10px rgba(130, 130, 129, 0.986); /* Intensidad de luz aumentada */
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 5px rgba(245, 213, 213, 0.5); /* Efecto de luz roja */
+  }
+}
+
+.imgHost {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.caption,
+.aboutP {
+  padding-top: 10px;
+  text-align: center;
+  color: aliceblue;
+}
