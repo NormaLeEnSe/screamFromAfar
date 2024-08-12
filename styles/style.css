@@ -75,7 +75,7 @@
 }
 
 .textElements{
-  border: 2px solid wheat;
+  border: 2px solid wheat; /*ELIMINAR AL FINALIZAR*/
   width: 820px;
   height: 300px;
   margin-left: 400px;
