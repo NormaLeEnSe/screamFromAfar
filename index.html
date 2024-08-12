@@ -13,6 +13,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Kalnia+Glaze:wght@100..700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Kalnia+Glaze:wght@100..700&display=swap"
       rel="stylesheet"
     />
@@ -23,7 +29,7 @@
       <h1 class="title">EL ATAÙD</h1>
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#caption">Acerca de</a>
+      <a class="navbar-brand" href="#index.html">Home</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -37,12 +43,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#"
-            >Home <span class="sr-only">(current)</span></a
+          <a class="nav-item nav-link active" href="#caption"
+            >Acerca de <span class="sr-only">(current)</span></a
           >
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+          <a class="nav-item nav-link" href="#Capitulos">Capitulos</a>
+          <a class="nav-item nav-link" href="#Foro">Foro</a>
+          <a class="nav-item nav-link disabled" href="#Contacto">Contacto</a>
         </div>
       </div>
     </nav>
@@ -57,7 +63,7 @@
           En el silencio de la noche, cada susurro puede ser un grito... si
           sabes escucharlo.
         </h2>
-        <p class="aboutP">
+        <p class="aboutP" id="caption">
           Soy Dani, la voz detrás de "El ataùd". Aquí, la oscuridad no es sólo
           un escenario; es un personaje más, siempre presente, siempre
           vigilante. Cada episodio te llevará a los límites de la razón, donde
@@ -70,6 +76,26 @@
           desconocido? En "El ataùd", la verdad es solo el principio, y yo soy
           la guía que te llevará al final... si es que llegas.
         </p>
+      </div>
+
+      <div class="chapters" id="Capitulos">
+        <h2 class="titleChapters">Capitulos</h2>
+        <div class="chapterOne">
+          <img
+            class="imgChapterOne"
+            src="./img/chaptersImg.png"
+            alt="Imagen de persona terrorifica"
+          />
+          <h2 class="h2ChapterOne">Capitulo 1 - Lorem ipsum dolor sit amet.</h2>
+          <p class="descriptionChapterOne">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            tempore fugiat ab doloremque, dolor maiores tempora illum quas
+            laudantium consequatur?
+          </p>
+          <audio controls src="./chapters/chaptersExample.mp4">audio</audio>
+        </div>
+        <div class="chapterTwo"></div>
+        <div class="chaptertree"></div>
       </div>
     </section>
   </body>

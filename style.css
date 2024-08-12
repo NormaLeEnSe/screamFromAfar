@@ -1,6 +1,7 @@
 .body {
   background-color: black;
   padding: 0;
+  color: azure;
 }
 
 .title {
@@ -10,7 +11,6 @@
   text-align: center;
   padding-top: 20px;
   animation: flicker 4s infinite;
-  color: azure;
 }
 
 @keyframes flicker {
@@ -42,4 +42,42 @@
   padding-top: 10px;
   text-align: center;
   color: aliceblue;
+}
+.aboutP {
+  padding-top: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+.chapters {
+  border: 2px solid wheat;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 90px;
+}
+
+.titleChapters {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.chapterOne {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.imgChapterOne {
+  width: 20%;
+  height: 20%;
+  border-radius: 30px;
+  margin-left: 70px;
+}
+
+.h2ChapterOne {
+  margin-bottom: 220px;
+  margin-left: 50px;
+}
+
+.descriptionChapterOne {
+  margin-right: 100px;
 }
